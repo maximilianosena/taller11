@@ -4,7 +4,7 @@ let search = document.getElementById("search");
  // ts= n° marca de tiempo que indica la fecha y la hora en que ocurrió un evento o se creó un registro
   //apikey= key público 
   //hash es con md5(ts+private key +public key) 
-let url= `http://gateway.marvel.com/v1/public/characters?ts=1000&apikey=d2ab91e9b6266759c69c0d7a4487860b&hash=1611e9b7944168c0bcfacab3f8ca599c` 
+let url= `https://gateway.marvel.com/v1/public/characters?ts=1000&apikey=d2ab91e9b6266759c69c0d7a4487860b&hash=1611e9b7944168c0bcfacab3f8ca599c` 
 
 //Llamo a la Api 
 const getInfo = async (url) => {
